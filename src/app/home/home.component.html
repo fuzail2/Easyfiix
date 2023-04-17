@@ -1,0 +1,440 @@
+<div class="column-layout page-content">
+  <div class="row-layout main-page-header">
+    <div class="row-layout group">
+      <div class="column-layout group_1">
+        <h4 class="h4">
+          All the auto parts you need in one place
+        </h4>
+        <p class="text">
+          We have the most popular brands and all the parts for your vehicle
+        </p>
+        <div class="row-layout group_2">
+          <igx-select type="box" placeholder="Select Year" class="select">
+            <igx-select-item value="Option">
+              2023
+            </igx-select-item>
+            <igx-select-item value="Option">
+              2022
+            </igx-select-item>
+            <igx-select-item value="Option">
+              2021
+            </igx-select-item>
+            <igx-select-item value="Option">
+              2020
+            </igx-select-item>
+            <igx-select-item value="Option">
+              2019
+            </igx-select-item>
+            <igx-select-item value="Option">
+              2018
+            </igx-select-item>
+            <igx-select-item value="Option">
+              2017
+            </igx-select-item>
+            <igx-select-item value="Option">
+              2016
+            </igx-select-item>
+            <label igxLabel>Year</label>
+          </igx-select>
+          <igx-select type="box" placeholder="Select Brand" [disabled]="true" class="select">
+            <igx-select-item value="Option">
+              Hyundai
+            </igx-select-item>
+            <igx-select-item value="Option">
+              Kia
+            </igx-select-item>
+            <igx-select-item value="Option">
+              Mitsubishi
+            </igx-select-item>
+            <igx-select-item value="Option">
+              Audi
+            </igx-select-item>
+            <igx-select-item value="Option">
+              Chevrolet
+            </igx-select-item>
+            <igx-select-item value="Option">
+              Toyota
+            </igx-select-item>
+            <igx-select-item value="Option">
+              Ford
+            </igx-select-item>
+            <igx-select-item value="Option">
+              Fiat
+            </igx-select-item>
+            <label igxLabel>Brand</label>
+          </igx-select>
+          <igx-select type="box" placeholder="Select Model" [disabled]="true" class="select">
+            <igx-select-item value="Option">
+              Option
+            </igx-select-item>
+            <label igxLabel>Model</label>
+          </igx-select>
+          <igx-select type="box" placeholder="Select Engine" [disabled]="true" class="select">
+            <igx-select-item value="Option">
+              Option
+            </igx-select-item>
+            <label igxLabel>Engine</label>
+          </igx-select>
+          <div class="row-layout group_3">
+            <button igxButton="flat" igxRipple class="button">
+              SEARCH
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column-layout content">
+    <div class="column-layout popular-categories">
+      <h5 class="h5">
+        Popular Categories
+      </h5>
+      <div class="row-layout group_4">
+        <igx-card type="outlined" routerLink="/all-products" class="card">
+          <igx-card-media height="400px">
+            <img src="/assets/photo-1606577924006-27d39b132ae2.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              AUTO BODY PARTS
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              Bumpers, Fenders, Mirrors, Hoods, Grilles, Door handles, Windows
+            </h5>
+          </igx-card-header>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="400px">
+            <img src="/assets/photo-1616788494670-7243adbb32b2.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              HEADLIGHTS &amp; LIGHTING
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              Headlights, Tail, Fog, Turn Signals, Switches, Corner, Off-Road, Bulbs
+            </h5>
+          </igx-card-header>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="400px">
+            <img src="/assets/photo-1552656967-7a0991a13906.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              ENGINE &amp; DRIVETRAIN
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              Catalytic Converters, Radiators, Fuel Systems, Heating, Cranks, Pistons
+            </h5>
+          </igx-card-header>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="400px">
+            <img src="/assets/photo-1598149949932-e4727f2f7ac4.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              BRAKES &amp; SUSPENSION
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              Discs, Shocks, Control Arms, Wheel Hubs, Wheels, Tie Rods
+            </h5>
+          </igx-card-header>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="400px">
+            <img src="/assets/photo-1614527255138-018e29ff34ee.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              INTERIOR ACCESSORIES
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              Seats, Carpet, Floor Mats, Dashboard, Switches, Gauges &amp; Monitors
+            </h5>
+          </igx-card-header>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="400px">
+            <img src="/assets/photo-1514316454349-750a7fd3da3a.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              EXTERIOR ACCESSORIES
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              Bumpers, Hoods, Grilles, Fog lights, Door Handles, Locks, Covers
+            </h5>
+          </igx-card-header>
+        </igx-card>
+      </div>
+    </div>
+    <div class="column-layout popular-categories">
+      <h5 class="h5">
+        Featured Products
+      </h5>
+      <div class="row-layout group_5">
+        <igx-card type="outlined" routerLink="/product-details" class="card">
+          <igx-card-media height="210px">
+            <img src="/assets/Alternator1.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              Gold Alternator
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              This is a brief product description, not longer than 2 lines of text.
+            </h5>
+          </igx-card-header>
+          <igx-card-content class="body-content">
+            <h6 class="h6">
+              $59.90
+            </h6>
+          </igx-card-content>
+          <igx-card-actions class="actions-content">
+            <button igxButton="flat" igxRipple class="button_1">
+              <igx-icon>
+                add_shopping_cart
+              </igx-icon>
+              <span>ADD TO CART</span>
+            </button>
+          </igx-card-actions>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="210px">
+            <img src="/assets/Depositphotos_114068560_l-2015.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              Winter Tires Set
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              This is a brief product description, not longer than 2 lines of text.
+            </h5>
+          </igx-card-header>
+          <igx-card-content class="body-content">
+            <h6 class="h6">
+              $44.50
+            </h6>
+          </igx-card-content>
+          <igx-card-actions class="actions-content">
+            <button igxButton="flat" igxRipple class="button_1">
+              <igx-icon>
+                add_shopping_cart
+              </igx-icon>
+              <span>ADD TO CART</span>
+            </button>
+          </igx-card-actions>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="210px">
+            <img src="/assets/Depositphotos_12011807_l-2015.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              Headlight Assembly
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              This is a brief product description, not longer than 2 lines of text.
+            </h5>
+          </igx-card-header>
+          <igx-card-content class="body-content">
+            <h6 class="h6">
+              $49.50
+            </h6>
+          </igx-card-content>
+          <igx-card-actions class="actions-content">
+            <button igxButton="flat" igxRipple class="button_1">
+              <igx-icon>
+                add_shopping_cart
+              </igx-icon>
+              <span>ADD TO CART</span>
+            </button>
+          </igx-card-actions>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="210px">
+            <img src="/assets/Depositphotos_39703145_l-2015.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              Spark Plugs
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              This is a brief product description, not longer than 2 lines of text.
+            </h5>
+          </igx-card-header>
+          <igx-card-content class="body-content">
+            <h6 class="h6">
+              $11.00
+            </h6>
+          </igx-card-content>
+          <igx-card-actions class="actions-content">
+            <button igxButton="flat" igxRipple class="button_1">
+              <igx-icon>
+                add_shopping_cart
+              </igx-icon>
+              <span>ADD TO CART</span>
+            </button>
+          </igx-card-actions>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="210px">
+            <img src="/assets/Depositphotos_91150104_l-2015.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              Tail Lamp Assembly
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              This is a brief product description, not longer than 2 lines of text.
+            </h5>
+          </igx-card-header>
+          <igx-card-content class="body-content">
+            <h6 class="h6">
+              $19.90
+            </h6>
+          </igx-card-content>
+          <igx-card-actions class="actions-content">
+            <button igxButton="flat" igxRipple class="button_1">
+              <igx-icon>
+                add_shopping_cart
+              </igx-icon>
+              <span>ADD TO CART</span>
+            </button>
+          </igx-card-actions>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="210px">
+            <img src="/assets/Depositphotos_20993125_l-2015.jpg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              Oil Filters
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              This is a brief product description, not longer than 2 lines of text.
+            </h5>
+          </igx-card-header>
+          <igx-card-content class="body-content">
+            <h6 class="h6">
+              $24.50
+            </h6>
+          </igx-card-content>
+          <igx-card-actions class="actions-content">
+            <button igxButton="flat" igxRipple class="button_1">
+              <igx-icon>
+                add_shopping_cart
+              </igx-icon>
+              <span>ADD TO CART</span>
+            </button>
+          </igx-card-actions>
+        </igx-card>
+      </div>
+    </div>
+  </div>
+  <div class="row-layout sitemap">
+    <div class="column-layout group_6">
+      <p class="ig-typography__subtitle-2 text_1">
+        Contact Us
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        1234 Street Name, CityName, ST
+      </p>
+      <p class="ig-typography__body-2 text_1">
+         10520 United States
+      </p>
+      <p class="ig-typography__subtitle-2 text_2">
+        Phone Number
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        1-234-567-8901
+      </p>
+    </div>
+    <div class="column-layout group_7">
+      <p class="ig-typography__subtitle-2 text_1">
+        Help
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        FAQ
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Returns
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Coupons &amp; Discounts
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Shipping &amp; Returns
+      </p>
+    </div>
+    <div class="column-layout group_7">
+      <p class="ig-typography__subtitle-2 text_1">
+        About Us
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Company Info
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Press Releases
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Careers
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Reviews
+      </p>
+    </div>
+    <div class="column-layout group_7">
+      <p class="ig-typography__subtitle-2 text_1">
+        Services
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Buy Online
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        In-Store
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Repair Help
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Find a Repair Shop
+      </p>
+    </div>
+    <div class="column-layout group_7">
+      <p class="ig-typography__subtitle-2 text_1">
+        Blog
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Car Building Basics
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Do it Yourself
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Your Home Workshop
+      </p>
+      <p class="ig-typography__body-2 text_1">
+        Advanced Bulding
+      </p>
+    </div>
+  </div>
+  <div class="row-layout footer">
+    <p class="ig-typography__body-2 text_3">
+      Copyright ©2021 AutoShop.com, Inc. All Rights Reserved.
+    </p>
+    <div class="row-layout group_8">
+      <p class="ig-typography__body-2 text_4">
+        Terms of Use
+      </p>
+      <p class="ig-typography__body-2 text_4">
+        Privacy Policy
+      </p>
+      <p class="ig-typography__body-2 text_4">
+        Site Map
+      </p>
+    </div>
+  </div>
+</div>
